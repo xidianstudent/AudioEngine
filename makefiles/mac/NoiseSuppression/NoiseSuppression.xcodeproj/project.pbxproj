@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A140121BA5CEE00D4E3DA /* nsx_core.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A140021BA5CEE00D4E3DA /* nsx_core.c */; };
+		EA5A140721BA5D2D00D4E3DA /* nsx_core_c.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A140221BA5D2D00D4E3DA /* nsx_core_c.c */; };
+		EA5A140821BA5D2D00D4E3DA /* noise_suppression_x.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A140321BA5D2D00D4E3DA /* noise_suppression_x.c */; };
+		EA5A140921BA5D2D00D4E3DA /* ns_core.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A140421BA5D2D00D4E3DA /* ns_core.c */; };
+		EA5A140A21BA5D2D00D4E3DA /* noise_suppression.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A140521BA5D2D00D4E3DA /* noise_suppression.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA5A13E821BA5B5A00D4E3DA /* libNoiseSuppression.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNoiseSuppression.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A140021BA5CEE00D4E3DA /* nsx_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nsx_core.c; path = ../../../../modules/audio_processing/ns/nsx_core.c; sourceTree = "<group>"; };
+		EA5A140221BA5D2D00D4E3DA /* nsx_core_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nsx_core_c.c; path = ../../../../modules/audio_processing/ns/nsx_core_c.c; sourceTree = "<group>"; };
+		EA5A140321BA5D2D00D4E3DA /* noise_suppression_x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = noise_suppression_x.c; path = ../../../../modules/audio_processing/ns/noise_suppression_x.c; sourceTree = "<group>"; };
+		EA5A140421BA5D2D00D4E3DA /* ns_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ns_core.c; path = ../../../../modules/audio_processing/ns/ns_core.c; sourceTree = "<group>"; };
+		EA5A140521BA5D2D00D4E3DA /* noise_suppression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = noise_suppression.c; path = ../../../../modules/audio_processing/ns/noise_suppression.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A13E621BA5B5A00D4E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A13DF21BA5B5A00D4E3DA = {
+			isa = PBXGroup;
+			children = (
+				EA5A13F121BA5BFF00D4E3DA /* source */,
+				EA5A13E921BA5B5A00D4E3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A13E921BA5B5A00D4E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A13E821BA5B5A00D4E3DA /* libNoiseSuppression.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A13F121BA5BFF00D4E3DA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A140321BA5D2D00D4E3DA /* noise_suppression_x.c */,
+				EA5A140521BA5D2D00D4E3DA /* noise_suppression.c */,
+				EA5A140421BA5D2D00D4E3DA /* ns_core.c */,
+				EA5A140221BA5D2D00D4E3DA /* nsx_core_c.c */,
+				EA5A140021BA5CEE00D4E3DA /* nsx_core.c */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA5A13E421BA5B5A00D4E3DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA5A13E721BA5B5A00D4E3DA /* NoiseSuppression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A13EC21BA5B5A00D4E3DA /* Build configuration list for PBXNativeTarget "NoiseSuppression" */;
+			buildPhases = (
+				EA5A13E421BA5B5A00D4E3DA /* Headers */,
+				EA5A13E521BA5B5A00D4E3DA /* Sources */,
+				EA5A13E621BA5B5A00D4E3DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoiseSuppression;
+			productName = NoiseSuppression;
+			productReference = EA5A13E821BA5B5A00D4E3DA /* libNoiseSuppression.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A13E021BA5B5A00D4E3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lbzhao;
+				TargetAttributes = {
+					EA5A13E721BA5B5A00D4E3DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EA5A13E321BA5B5A00D4E3DA /* Build configuration list for PBXProject "NoiseSuppression" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A13DF21BA5B5A00D4E3DA;
+			productRefGroup = EA5A13E921BA5B5A00D4E3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A13E721BA5B5A00D4E3DA /* NoiseSuppression */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A13E521BA5B5A00D4E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A140A21BA5D2D00D4E3DA /* noise_suppression.c in Sources */,
+				EA5A140821BA5D2D00D4E3DA /* noise_suppression_x.c in Sources */,
+				EA5A140721BA5D2D00D4E3DA /* nsx_core_c.c in Sources */,
+				EA5A140121BA5CEE00D4E3DA /* nsx_core.c in Sources */,
+				EA5A140921BA5D2D00D4E3DA /* ns_core.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A13EA21BA5B5A00D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA5A13EB21BA5B5A00D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA5A13ED21BA5B5A00D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../..\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA5A13EE21BA5B5A00D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../..\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A13E321BA5B5A00D4E3DA /* Build configuration list for PBXProject "NoiseSuppression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A13EA21BA5B5A00D4E3DA /* Debug */,
+				EA5A13EB21BA5B5A00D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A13EC21BA5B5A00D4E3DA /* Build configuration list for PBXNativeTarget "NoiseSuppression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A13ED21BA5B5A00D4E3DA /* Debug */,
+				EA5A13EE21BA5B5A00D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A13E021BA5B5A00D4E3DA /* Project object */;
+}

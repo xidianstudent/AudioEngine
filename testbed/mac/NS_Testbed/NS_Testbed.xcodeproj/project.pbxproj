@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A141921BA5E3300D4E3DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5A141821BA5E3300D4E3DA /* main.m */; };
+		EA5A142621BA5E6600D4E3DA /* libNoiseSuppression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A142421BA5E5900D4E3DA /* libNoiseSuppression.a */; };
+		EA5A148221BA68CB00D4E3DA /* libCommonAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A148121BA68C700D4E3DA /* libCommonAudio.a */; };
+		EA69F5C321BA751800BD9BE1 /* libRtc_Base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA69F5C221BA751500BD9BE1 /* libRtc_Base.a */; };
+		EA69F5C521BA761A00BD9BE1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA69F5C421BA761A00BD9BE1 /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5A142321BA5E5900D4E3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5A141F21BA5E5900D4E3DA /* NoiseSuppression.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA5A13E821BA5B5A00D4E3DA;
+			remoteInfo = NoiseSuppression;
+		};
+		EA5A148021BA68C700D4E3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5A147C21BA68C700D4E3DA /* CommonAudio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA5A143021BA61CC00D4E3DA;
+			remoteInfo = CommonAudio;
+		};
+		EA69F5C121BA751500BD9BE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA69F5BB21BA751500BD9BE1 /* Rtc_Base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA5A148C21BA69F100D4E3DA;
+			remoteInfo = Rtc_Base;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA5A141321BA5E3300D4E3DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA5A141521BA5E3300D4E3DA /* NS_Testbed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NS_Testbed; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A141821BA5E3300D4E3DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5A141F21BA5E5900D4E3DA /* NoiseSuppression.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoiseSuppression.xcodeproj; path = ../../../makefiles/mac/NoiseSuppression/NoiseSuppression.xcodeproj; sourceTree = "<group>"; };
+		EA5A147C21BA68C700D4E3DA /* CommonAudio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CommonAudio.xcodeproj; path = ../../../makefiles/mac/CommonAudio/CommonAudio.xcodeproj; sourceTree = "<group>"; };
+		EA69F5BB21BA751500BD9BE1 /* Rtc_Base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rtc_Base.xcodeproj; path = ../../../makefiles/mac/Rtc_Base/Rtc_Base.xcodeproj; sourceTree = "<group>"; };
+		EA69F5C421BA761A00BD9BE1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A141221BA5E3300D4E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA69F5C521BA761A00BD9BE1 /* libc++.tbd in Frameworks */,
+				EA69F5C321BA751800BD9BE1 /* libRtc_Base.a in Frameworks */,
+				EA5A148221BA68CB00D4E3DA /* libCommonAudio.a in Frameworks */,
+				EA5A142621BA5E6600D4E3DA /* libNoiseSuppression.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A140C21BA5E3300D4E3DA = {
+			isa = PBXGroup;
+			children = (
+				EA69F5BB21BA751500BD9BE1 /* Rtc_Base.xcodeproj */,
+				EA5A147C21BA68C700D4E3DA /* CommonAudio.xcodeproj */,
+				EA5A141F21BA5E5900D4E3DA /* NoiseSuppression.xcodeproj */,
+				EA5A141721BA5E3300D4E3DA /* NS_Testbed */,
+				EA5A141621BA5E3300D4E3DA /* Products */,
+				EA5A142521BA5E6600D4E3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A141621BA5E3300D4E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A141521BA5E3300D4E3DA /* NS_Testbed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A141721BA5E3300D4E3DA /* NS_Testbed */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A141821BA5E3300D4E3DA /* main.m */,
+			);
+			path = NS_Testbed;
+			sourceTree = "<group>";
+		};
+		EA5A142021BA5E5900D4E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A142421BA5E5900D4E3DA /* libNoiseSuppression.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A142521BA5E6600D4E3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA69F5C421BA761A00BD9BE1 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA5A147D21BA68C700D4E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A148121BA68C700D4E3DA /* libCommonAudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA69F5BC21BA751500BD9BE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA69F5C221BA751500BD9BE1 /* libRtc_Base.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5A141421BA5E3300D4E3DA /* NS_Testbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A141C21BA5E3300D4E3DA /* Build configuration list for PBXNativeTarget "NS_Testbed" */;
+			buildPhases = (
+				EA5A141121BA5E3300D4E3DA /* Sources */,
+				EA5A141221BA5E3300D4E3DA /* Frameworks */,
+				EA5A141321BA5E3300D4E3DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NS_Testbed;
+			productName = NS_Testbed;
+			productReference = EA5A141521BA5E3300D4E3DA /* NS_Testbed */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A140D21BA5E3300D4E3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lbzhao;
+				TargetAttributes = {
+					EA5A141421BA5E3300D4E3DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EA5A141021BA5E3300D4E3DA /* Build configuration list for PBXProject "NS_Testbed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A140C21BA5E3300D4E3DA;
+			productRefGroup = EA5A141621BA5E3300D4E3DA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA5A147D21BA68C700D4E3DA /* Products */;
+					ProjectRef = EA5A147C21BA68C700D4E3DA /* CommonAudio.xcodeproj */;
+				},
+				{
+					ProductGroup = EA5A142021BA5E5900D4E3DA /* Products */;
+					ProjectRef = EA5A141F21BA5E5900D4E3DA /* NoiseSuppression.xcodeproj */;
+				},
+				{
+					ProductGroup = EA69F5BC21BA751500BD9BE1 /* Products */;
+					ProjectRef = EA69F5BB21BA751500BD9BE1 /* Rtc_Base.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EA5A141421BA5E3300D4E3DA /* NS_Testbed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EA5A142421BA5E5900D4E3DA /* libNoiseSuppression.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNoiseSuppression.a;
+			remoteRef = EA5A142321BA5E5900D4E3DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA5A148121BA68C700D4E3DA /* libCommonAudio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommonAudio.a;
+			remoteRef = EA5A148021BA68C700D4E3DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EA69F5C221BA751500BD9BE1 /* libRtc_Base.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRtc_Base.a;
+			remoteRef = EA69F5C121BA751500BD9BE1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A141121BA5E3300D4E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A141921BA5E3300D4E3DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A141A21BA5E3300D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA5A141B21BA5E3300D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA5A141D21BA5E3300D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../output/include\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA5A141E21BA5E3300D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../output/include\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A141021BA5E3300D4E3DA /* Build configuration list for PBXProject "NS_Testbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A141A21BA5E3300D4E3DA /* Debug */,
+				EA5A141B21BA5E3300D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A141C21BA5E3300D4E3DA /* Build configuration list for PBXNativeTarget "NS_Testbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A141D21BA5E3300D4E3DA /* Debug */,
+				EA5A141E21BA5E3300D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A140D21BA5E3300D4E3DA /* Project object */;
+}

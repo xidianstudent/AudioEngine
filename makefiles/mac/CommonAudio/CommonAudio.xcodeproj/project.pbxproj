@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1AEACE21BB6DC4005348BE /* splitting_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = EA1AEACD21BB6DC4005348BE /* splitting_filter.c */; };
+		EA5A145B21BA623700D4E3DA /* fir_filter_sse.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A143921BA623600D4E3DA /* fir_filter_sse.cc */; };
+		EA5A145C21BA623700D4E3DA /* ring_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A143A21BA623600D4E3DA /* ring_buffer.c */; };
+		EA5A145D21BA623700D4E3DA /* audio_util.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A143B21BA623600D4E3DA /* audio_util.cc */; };
+		EA5A145E21BA623700D4E3DA /* blocker.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A143C21BA623600D4E3DA /* blocker.cc */; };
+		EA5A146021BA623700D4E3DA /* fir_filter_c.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A143E21BA623600D4E3DA /* fir_filter_c.cc */; };
+		EA5A146321BA623700D4E3DA /* fir_filter_factory.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144121BA623600D4E3DA /* fir_filter_factory.cc */; };
+		EA5A146521BA623700D4E3DA /* real_fourier.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144321BA623600D4E3DA /* real_fourier.cc */; };
+		EA5A146621BA623700D4E3DA /* lapped_transform.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144421BA623600D4E3DA /* lapped_transform.cc */; };
+		EA5A146821BA623700D4E3DA /* smoothing_filter.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144621BA623600D4E3DA /* smoothing_filter.cc */; };
+		EA5A146E21BA623700D4E3DA /* wav_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144C21BA623700D4E3DA /* wav_file.cc */; };
+		EA5A147121BA623700D4E3DA /* audio_converter.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A144F21BA623700D4E3DA /* audio_converter.cc */; };
+		EA5A147221BA623700D4E3DA /* real_fourier_ooura.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145021BA623700D4E3DA /* real_fourier_ooura.cc */; };
+		EA5A147321BA623700D4E3DA /* fft4g.c in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145121BA623700D4E3DA /* fft4g.c */; };
+		EA5A147521BA623700D4E3DA /* audio_ring_buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145321BA623700D4E3DA /* audio_ring_buffer.cc */; };
+		EA5A147721BA623700D4E3DA /* sparse_fir_filter.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145521BA623700D4E3DA /* sparse_fir_filter.cc */; };
+		EA5A147921BA623700D4E3DA /* wav_header.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145721BA623700D4E3DA /* wav_header.cc */; };
+		EA5A147A21BA623700D4E3DA /* channel_buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145821BA623700D4E3DA /* channel_buffer.cc */; };
+		EA5A147B21BA623700D4E3DA /* window_generator.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA5A145921BA623700D4E3DA /* window_generator.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1AEACD21BB6DC4005348BE /* splitting_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = splitting_filter.c; path = ../../../../../common_audio/signal_processing/splitting_filter.c; sourceTree = "<group>"; };
+		EA5A143021BA61CC00D4E3DA /* libCommonAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A143921BA623600D4E3DA /* fir_filter_sse.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fir_filter_sse.cc; path = ../../../../common_audio/fir_filter_sse.cc; sourceTree = "<group>"; };
+		EA5A143A21BA623600D4E3DA /* ring_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ring_buffer.c; path = ../../../../common_audio/ring_buffer.c; sourceTree = "<group>"; };
+		EA5A143B21BA623600D4E3DA /* audio_util.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = audio_util.cc; path = ../../../../common_audio/audio_util.cc; sourceTree = "<group>"; };
+		EA5A143C21BA623600D4E3DA /* blocker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = blocker.cc; path = ../../../../common_audio/blocker.cc; sourceTree = "<group>"; };
+		EA5A143E21BA623600D4E3DA /* fir_filter_c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fir_filter_c.cc; path = ../../../../common_audio/fir_filter_c.cc; sourceTree = "<group>"; };
+		EA5A144121BA623600D4E3DA /* fir_filter_factory.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fir_filter_factory.cc; path = ../../../../common_audio/fir_filter_factory.cc; sourceTree = "<group>"; };
+		EA5A144321BA623600D4E3DA /* real_fourier.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = real_fourier.cc; path = ../../../../common_audio/real_fourier.cc; sourceTree = "<group>"; };
+		EA5A144421BA623600D4E3DA /* lapped_transform.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lapped_transform.cc; path = ../../../../common_audio/lapped_transform.cc; sourceTree = "<group>"; };
+		EA5A144621BA623600D4E3DA /* smoothing_filter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smoothing_filter.cc; path = ../../../../common_audio/smoothing_filter.cc; sourceTree = "<group>"; };
+		EA5A144C21BA623700D4E3DA /* wav_file.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wav_file.cc; path = ../../../../common_audio/wav_file.cc; sourceTree = "<group>"; };
+		EA5A144F21BA623700D4E3DA /* audio_converter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = audio_converter.cc; path = ../../../../common_audio/audio_converter.cc; sourceTree = "<group>"; };
+		EA5A145021BA623700D4E3DA /* real_fourier_ooura.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = real_fourier_ooura.cc; path = ../../../../common_audio/real_fourier_ooura.cc; sourceTree = "<group>"; };
+		EA5A145121BA623700D4E3DA /* fft4g.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fft4g.c; path = ../../../../common_audio/fft4g.c; sourceTree = "<group>"; };
+		EA5A145321BA623700D4E3DA /* audio_ring_buffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = audio_ring_buffer.cc; path = ../../../../common_audio/audio_ring_buffer.cc; sourceTree = "<group>"; };
+		EA5A145521BA623700D4E3DA /* sparse_fir_filter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sparse_fir_filter.cc; path = ../../../../common_audio/sparse_fir_filter.cc; sourceTree = "<group>"; };
+		EA5A145721BA623700D4E3DA /* wav_header.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wav_header.cc; path = ../../../../common_audio/wav_header.cc; sourceTree = "<group>"; };
+		EA5A145821BA623700D4E3DA /* channel_buffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = channel_buffer.cc; path = ../../../../common_audio/channel_buffer.cc; sourceTree = "<group>"; };
+		EA5A145921BA623700D4E3DA /* window_generator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = window_generator.cc; path = ../../../../common_audio/window_generator.cc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A142E21BA61CC00D4E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1AEACC21BB6DA4005348BE /* signal_processing */ = {
+			isa = PBXGroup;
+			children = (
+				EA1AEACD21BB6DC4005348BE /* splitting_filter.c */,
+			);
+			path = signal_processing;
+			sourceTree = "<group>";
+		};
+		EA5A142721BA61CC00D4E3DA = {
+			isa = PBXGroup;
+			children = (
+				EA5A143721BA61D500D4E3DA /* source */,
+				EA5A143121BA61CC00D4E3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A143121BA61CC00D4E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A143021BA61CC00D4E3DA /* libCommonAudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A143721BA61D500D4E3DA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				EA1AEACC21BB6DA4005348BE /* signal_processing */,
+				EA5A144F21BA623700D4E3DA /* audio_converter.cc */,
+				EA5A145321BA623700D4E3DA /* audio_ring_buffer.cc */,
+				EA5A143B21BA623600D4E3DA /* audio_util.cc */,
+				EA5A143C21BA623600D4E3DA /* blocker.cc */,
+				EA5A145821BA623700D4E3DA /* channel_buffer.cc */,
+				EA5A145121BA623700D4E3DA /* fft4g.c */,
+				EA5A143E21BA623600D4E3DA /* fir_filter_c.cc */,
+				EA5A144121BA623600D4E3DA /* fir_filter_factory.cc */,
+				EA5A143921BA623600D4E3DA /* fir_filter_sse.cc */,
+				EA5A144421BA623600D4E3DA /* lapped_transform.cc */,
+				EA5A145021BA623700D4E3DA /* real_fourier_ooura.cc */,
+				EA5A144321BA623600D4E3DA /* real_fourier.cc */,
+				EA5A143A21BA623600D4E3DA /* ring_buffer.c */,
+				EA5A144621BA623600D4E3DA /* smoothing_filter.cc */,
+				EA5A145521BA623700D4E3DA /* sparse_fir_filter.cc */,
+				EA5A144C21BA623700D4E3DA /* wav_file.cc */,
+				EA5A145721BA623700D4E3DA /* wav_header.cc */,
+				EA5A145921BA623700D4E3DA /* window_generator.cc */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA5A142C21BA61CC00D4E3DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA5A142F21BA61CC00D4E3DA /* CommonAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A143421BA61CC00D4E3DA /* Build configuration list for PBXNativeTarget "CommonAudio" */;
+			buildPhases = (
+				EA5A142C21BA61CC00D4E3DA /* Headers */,
+				EA5A142D21BA61CC00D4E3DA /* Sources */,
+				EA5A142E21BA61CC00D4E3DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonAudio;
+			productName = CommonAudio;
+			productReference = EA5A143021BA61CC00D4E3DA /* libCommonAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A142821BA61CC00D4E3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lbzhao;
+				TargetAttributes = {
+					EA5A142F21BA61CC00D4E3DA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EA5A142B21BA61CC00D4E3DA /* Build configuration list for PBXProject "CommonAudio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A142721BA61CC00D4E3DA;
+			productRefGroup = EA5A143121BA61CC00D4E3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A142F21BA61CC00D4E3DA /* CommonAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A142D21BA61CC00D4E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A147A21BA623700D4E3DA /* channel_buffer.cc in Sources */,
+				EA1AEACE21BB6DC4005348BE /* splitting_filter.c in Sources */,
+				EA5A147721BA623700D4E3DA /* sparse_fir_filter.cc in Sources */,
+				EA5A146621BA623700D4E3DA /* lapped_transform.cc in Sources */,
+				EA5A146521BA623700D4E3DA /* real_fourier.cc in Sources */,
+				EA5A147521BA623700D4E3DA /* audio_ring_buffer.cc in Sources */,
+				EA5A145D21BA623700D4E3DA /* audio_util.cc in Sources */,
+				EA5A146E21BA623700D4E3DA /* wav_file.cc in Sources */,
+				EA5A146821BA623700D4E3DA /* smoothing_filter.cc in Sources */,
+				EA5A146321BA623700D4E3DA /* fir_filter_factory.cc in Sources */,
+				EA5A145C21BA623700D4E3DA /* ring_buffer.c in Sources */,
+				EA5A146021BA623700D4E3DA /* fir_filter_c.cc in Sources */,
+				EA5A147221BA623700D4E3DA /* real_fourier_ooura.cc in Sources */,
+				EA5A147921BA623700D4E3DA /* wav_header.cc in Sources */,
+				EA5A147321BA623700D4E3DA /* fft4g.c in Sources */,
+				EA5A145B21BA623700D4E3DA /* fir_filter_sse.cc in Sources */,
+				EA5A145E21BA623700D4E3DA /* blocker.cc in Sources */,
+				EA5A147B21BA623700D4E3DA /* window_generator.cc in Sources */,
+				EA5A147121BA623700D4E3DA /* audio_converter.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A143221BA61CC00D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA5A143321BA61CC00D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA5A143521BA61CC00D4E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../..\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA5A143621BA61CC00D4E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4AFH9J6S8;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../..\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A142B21BA61CC00D4E3DA /* Build configuration list for PBXProject "CommonAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A143221BA61CC00D4E3DA /* Debug */,
+				EA5A143321BA61CC00D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A143421BA61CC00D4E3DA /* Build configuration list for PBXNativeTarget "CommonAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A143521BA61CC00D4E3DA /* Debug */,
+				EA5A143621BA61CC00D4E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A142821BA61CC00D4E3DA /* Project object */;
+}
